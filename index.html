@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgical Instruments Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Order Surgical Instruments</h2>
+        <form action="https://formspree.io/f/mwkajjeq" method="POST">
+            <div class="form-group">
+                <label for="surgeonName">Surgeon Name:</label>
+                <input type="text" id="surgeonName" name="surgeonName" value="Mike" required>
+            </div>
+            <div class="form-group">
+                <label for="costCenter">Cost Center:</label>
+                <input type="text" id="costCenter" name="costCenter" value="162135" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit Order">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
